@@ -1,0 +1,588 @@
+@charset "UTF-8";
+
+/*css 初始化 */
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+    margin: 0;
+    padding: 0;
+
+}
+
+fieldset,
+img,
+input,
+button {
+    /*fieldset组合表单中的相关元素*/
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul,
+ol {
+    list-style: none;
+    /*清除列表风格*/
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+select,
+input {
+    vertical-align: middle;
+}
+
+select,
+input,
+textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+/*防止多行文本框拖动*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*  去掉图片低测默认的3像素空白缝隙*/
+table {
+    border-collapse: collapse;
+    /*合并外边线*/
+}
+
+
+body {
+    font: 14px/150% Microsoft YaHei, Verdana, "\5b8b\4f53";
+    /*宋体，Unicode，统一码*/
+    color: #666;
+    background: #f0f4f8;
+}
+
+body,
+html {
+    background: #f4f4f4;
+    width: 100%;
+    height: 100%;
+    color: #2d2d2d;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", "黑体", "宋体", sans-serif;
+    position: relative;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    height: 50px;
+    padding: 0 10px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.healeft {
+    float: left;
+    margin-top: 13px;
+}
+
+.healon {
+    width: 65px;
+    height: 25px;
+    /* background-color: red; */
+}
+
+.healtwo {
+    width: 2px;
+    background-color: #8c8c8c;
+    height: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 9px;
+}
+
+.health {
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #f1f1f1;
+    margin-top: 6px;
+}
+
+.heariht {
+    float: right;
+    margin-top: 12px;
+    width: 30px;
+    height: 30px;
+}
+
+.heariht img {
+    width: 100%;
+    height: 100%;
+}
+
+.heractibe {
+    background-color: #dd4641 !important;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+    /*IE/7/6*/
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /*text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;*/
+}
+
+s,
+i,
+em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+    /*margin-top: 100px;*/
+    /*height: 78px;*/
+    /*background: red;*/
+}
+
+.f_left {
+    float: left;
+}
+
+.f_right {
+    float: right;
+}
+
+.xinxi {
+    width: 100%;
+    height: 430px;
+    background-color: #1f1f1f;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+.xinxia {
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    color: #dd4641;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.xinxib {
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.xinxic {
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.xinxic span {
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    background-color: red;
+    border-radius: 4px;
+}
+
+.xinxid {
+    width: 100%;
+    height: 36px;
+    /* background-color: red; */
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.xinxid div {
+    float: left;
+}
+
+.xida {
+    width: 22px;
+    height: 22px;
+    margin-top: 5px;
+}
+
+.xida img {
+    width: 100%;
+    height: 100%;
+}
+
+.xidb {
+    width: 77%;
+    height: 100%;
+    background-color: #fff;
+    margin-left: 20px;
+}
+
+.xidb input {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    padding: 0 5px;
+    color: #000;
+}
+
+.xidc {
+    float: right !important;
+    height: 100%;
+    line-height: 50px;
+    color: red;
+    font-size: 20px;
+}
+.shiq {
+    margin: 0 auto;
+    position: relative;
+    width: 60%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 20px;
+    color: #dd4641;
+    border: 1px solid #dd4641;
+}
+
+.shiq img {
+    position: absolute;
+    top: 8px;
+    right: 26px;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    /* IE 9 */
+    -moz-transform: rotate(-7deg);
+    /* Firefox */
+    -webkit-transform: rotate(-7deg);
+    /* Safari 和 Chrome */
+    -o-transform: rotate(-7deg);
+    /* Opera */
+}
+.shiqliji {
+    width: 78% !important;
+    border-radius: 5px !important;
+    background-color: #dd4641 !important;
+    color: #fff !important;
+}
+
+.shixueaa {
+    margin-top: 20px;
+}
+.shixue {
+    width: 100%;
+    height: 58px;
+    overflow: hidden;
+}
+
+.xinxie {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+}
+
+.di {
+    width: 100%;
+    height: 308px;
+    background-color: #cc3a35;
+    margin-bottom: 49px;
+}
+
+.dia {
+    width: 100%;
+    height: 210px;
+    border-bottom: 1px solid #6c100c;
+    overflow: hidden;
+}
+
+.diaa {
+    float: left;
+    width: 65%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.diab {
+    float: left;
+    width: 35%;
+    height: 100%;
+    padding-right: 10px;
+}
+
+.diab img {
+    width: 50px;
+    height: 50px;
+}
+
+.diaaimg {
+    width: 90px;
+    height: 32px;
+    /* background-color: red; */
+    margin-top: 20px;
+}
+
+.diaaa {
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.diaaa img {
+    width: 22px;
+    height: 22px;
+}
+
+.diaab {
+    width: 100%;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+    padding-left: 5px;
+    margin-top: 0px;
+}
+
+.diaac {
+    width: 100%;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.diaac span {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.diabimg {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.diabimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.diabtext {
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.dib {
+    width: 100%;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: #1b1b1b;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer ul {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.footer li {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+}
+
+.footerimg {
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    /* background-color: red; */
+    margin-top: 2px;
+}
+
+.footertext {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    margin-top: 1px;
+}
+
+.topshow {
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background-color: #000;
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    overflow: hidden;
+}
+
+.topshow .topshowa {
+    height: 60px;
+}
+
+.topshowb {
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 80px;
+}
+
+.topshowb ul {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.topshowb li {
+    width: 100%;
+    height: 50px;
+    background-color: #1b1b1b;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.topshowb li div {
+    float: left;
+}
+
+.topa {
+    width: 26px;
+    height: 26px;
+    margin-top: 12px;
+    /* background-color: pink; */
+    font-family: PingFang-Medium;
+}
+
+.topb {
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.topc {
+    float: right !important;
+    width: 26px;
+    height: 26px;
+    margin-top: 13px;
+}
+
+.navone {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    margin-top: 50px;
+    overflow: hidden;
+}
+.topshowb li a{
+    display: block;
+   width: 100%;
+   height: 100%;
+}
+.shooltopD a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.shooltopC a{
+    display: block;
+    width: 100%;
+    height: 100%; 
+}

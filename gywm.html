@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title></title>
+    <link rel="stylesheet" href="./mui/css/mui.css">
+    <link rel="stylesheet" href="./css/commen.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/shool.css">
+    <style>
+        html,
+        body {
+            font-size: 14px !important;
+            background-color: #f4f4f4;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        ul {
+            width: 100%;
+            height: 100%;
+        }
+
+        .shoola {
+            width: 100%;
+            /* height: 300px; */
+            background-color: #fff;
+            /* padding: 0 10px; */
+            overflow: hidden;
+        }
+
+        .shoolatop {
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+
+        .shooltopb {
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            color: #F4252A;
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+
+        .shooltopC {
+            width: 100%;
+            height: 100px;
+            padding: 0 3%;
+        }
+
+        .shooltopC li {
+            float: left;
+            width: 20%;
+            height: 100%;
+            margin-right: 4%;
+        }
+
+        .shooltopC li img {
+            width: 100%;
+            height: auto;
+        }
+
+        .fista {
+            margin-left: 4%;
+        }
+
+        .lastx {
+            margin-right: 0px !important;
+        }
+
+        .shoold {
+            display: block;
+            width: 15px !important;
+            height: 7px !important;
+            margin: 0 auto;
+            margin-top: 5px;
+        }
+
+        .shoolbb {
+            width: 100%;
+            height: auto;
+            /* background-color: red; */
+            position: relative;
+            margin-bottom: 20px;
+            padding: 0 10px;
+        }
+
+        .shoolbac {
+            display: block;
+            width: 70%;
+            height: auto;
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            margin-left: -35%;
+        }
+
+        .gyNav {
+            widows: 100%;
+        }
+
+        .gyNava {
+            width: 100%;
+            padding: 20px 10px;
+            color: #666;
+        }
+
+        .gyNavA {
+            width: 100%;
+            height: 206px;
+            position: relative;
+        }
+
+        .gyNavA .sQaer {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 999;
+            /* padding: 0 10px; */
+        }
+
+        .playvideo {
+            padding-top: auto;
+            z-index: 99;
+            position: relative;
+        }
+
+        .zy_media {
+            z-index: 9;
+        }
+
+        .sQb {
+            width: 100%;
+            height: 50px;
+        }
+
+        .sQb li {
+            float: left;
+            width: 33.33%;
+            height: 100%;
+            line-height: 50px;
+            text-align: center;
+            color: #666;
+        }
+
+        .sQnav {
+            width: 100%;
+            height: 50px;
+        }
+
+        .sQ {
+            width: 100%;
+            height: 50px;
+            padding: 0 10px;
+            line-height: 50px;
+            font-size: 18px;
+        }
+
+        .sQa {
+            width: 100%;
+            height: 200px;
+            padding: 0 10px;
+            position: relative;
+        }
+
+        #modelView {
+            background-color: #DDDDDD;
+            z-index: 0;
+            opacity: 0.7;
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+
+        .playvideo {
+            padding-top: auto;
+            z-index: 99;
+            position: relative;
+        }
+
+        .zy_media {
+            z-index: 9;
+        }
+
+        .sQ {
+            width: 100%;
+            height: 50px;
+            padding: 0 10px;
+            line-height: 50px;
+            font-size: 18px;
+        }
+
+        .sQa {
+            width: 100%;
+            height: 207px;
+            padding: 0 0px;
+            position: relative;
+        }
+
+        #modelView {
+            background-color: #DDDDDD;
+            z-index: 0;
+            opacity: 0.7;
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+
+        .playvideo {
+            padding-top: auto;
+            z-index: 99;
+            position: relative;
+        }
+
+        .zy_media {
+            z-index: 9;
+        }
+
+        .gyNavBa {
+            width: 100%;
+            padding: 0 10px;
+        }
+
+        .gyNavBa li:nth-of-type(odd) {
+            float: left;
+            width: 48%;
+            height: 250px;
+            padding-left: 10px;
+            padding-right: 5px;
+            margin-right: 1%;
+            margin-bottom: 10px;
+            padding-top: 15px;
+            border-radius: 5px;
+            color: #fff;
+        }
+
+        .gyNavBa li:nth-of-type(even) {
+            float: left;
+            width: 48%;
+            margin-left: 1%;
+            height: 250px;
+            padding-left: 5px;
+            padding-right: 10px;
+            padding-top: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            color: #fff;
+        }
+
+        .SanSTwo {
+            padding: 0 10px;
+        }
+
+
+
+        .shoolbb a {
+            display: block;
+        }
+
+        .gyNavD {
+            width: 100%;
+            height: 1000px;
+            background: url('./img/guanyu/w1.png');
+            background-size: 100% 100%;
+            overflow: hidden;
+        }
+
+        .SanFzn li {
+            padding-left: 10px;
+        }
+
+        .htnkaa {
+            font-size: 15px;
+        }
+
+        .shoolbb {
+            padding: 0 !important;
+        }
+
+        .shoowl2 {
+            margin: 10px 0 30px 0;
+        }
+
+        .sher {
+            background-color: #fff;
+            padding-bottom: 20px;
+        }
+
+        .gtuy {
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        .gtuya {
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            font-size: 14px;
+            color: #CC3A35;
+            margin-bottom: 30px;
+        }
+
+        .gtuyb {
+            width: 100%;
+            padding: 0 10px;
+        }
+
+        .gtuyb li {
+            float: left;
+            width: 46%;
+            height: 200px;
+            padding: 10px 0px;
+            margin: 0 2%;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .gtuyba {
+            width: 100%;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+            color: #CC3A35;
+            margin-top: 10px;
+        }
+
+        .gtuybb {
+            width: 100%;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        .gtuybc {
+            width: 75px;
+            height: 1px;
+            background-color: #666666;
+            margin: 0 auto;
+        }
+
+        .gtuybd {
+            width: 100%;
+            text-align: center;
+            font-size: 13px;
+            color: #898989;
+            margin-bottom: 15px;
+            padding: 0 15px;
+            margin-top: 20px;
+        }
+
+        .Baq {
+            width: 35px;
+            height: 35px;
+            margin: 0 auto;
+        }
+
+        .Baw {
+            width: 100%;
+            height: 20px;
+            line-height: 20px;
+            font-size: 18px;
+            font-weight: 600;
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .Bae {
+            width: 100%;
+            height: 20px;
+            line-height: 20px;
+            font-size: 15px;
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .Bar {
+            width: 50px;
+            height: 1px;
+            background-color: #fff;
+            margin: 0 auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .Bat {
+            width: 100%;
+            padding: 0 2px;
+            margin-top: 10px;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .gya {
+            background: url('./img/guanyu/e2.png');
+            background-size: 100% 100%;
+        }
+
+        .gyb {
+            background: url('./img/guanyu/e4.png');
+            background-size: 100% 100%;
+        }
+
+        .gyc {
+            background: url('./img/guanyu/e6.png');
+            background-size: 100% 100%;
+        }
+
+        .gyd {
+            background: url('./img/guanyu/e8.png');
+            background-size: 100% 100%;
+        }
+
+        .gye {
+            background: url('./img/guanyu/e10.png');
+            background-size: 100% 100%;
+        }
+
+        .gyf {
+            background: url('./img/guanyu/e12.png');
+            background-size: 100% 100%;
+        }
+
+        .gyNavC {
+            width: 100%;
+            padding: 0 10px;
+            height: 900px;
+            padding: 0px 10px 20px 10px;
+            margin: 10px 0;
+            background-color: #f4f4f4;
+        }
+
+        .tiked {
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+
+        .navgtyi {
+            width: 100%;
+            height: 800px;
+            overflow: hidden;
+        }
+
+        .gyNavCa {
+            float: left;
+            width: 47%;
+            height: 100%;
+        }
+
+        .gyNavCa li {
+            width: 100%;
+            height: 250px;
+            background: url('./img/guanyu/f1.png');
+            background-size: 100% 100%;
+            position: relative;
+            padding: 8px;
+            padding-right: 10%;
+            margin-bottom: 20px;
+        }
+
+        .gyNavCb {
+            float: left;
+            width: 6%;
+            height: 100%;
+        }
+
+        .gyNavCba {
+            width: 2px;
+            height: 100%;
+            background-color: #CDCDCD;
+            margin: 0 auto;
+        }
+
+        .gyNavCc {
+            float: left;
+            width: 47%;
+            height: 100%;
+            padding-top: 60px;
+        }
+
+        .gyNavCc li {
+            width: 100%;
+            height: 250px;
+            background: url('./img/guanyu/f2.png');
+            background-size: 100% 100%;
+            position: relative;
+            padding: 8px;
+            padding-left: 10%;
+            margin-bottom: 20px;
+        }
+
+        .drt {
+            margin-bottom: 10px;
+        }
+
+        .yuan {
+            width: 16px;
+            height: 16px;
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 50% 50%;
+            position: absolute;
+            top: 40px;
+            right: -18px;
+            z-index: 99;
+        }
+
+        .dian {
+            width: 10px;
+            height: 10px;
+            margin: 0 auto;
+            margin-top: 3px;
+            background-color: #CC3A35;
+            border-radius: 50% 50%;
+        }
+
+        .gyyear {
+            width: 100%;
+            height: 20px;
+            font-size: 16px;
+            /* text-align: center; */
+            line-height: 20px;
+            color: #fff;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        .gyyearnev {
+            width: 100%;
+            height: 20px;
+            font-size: 12px;
+            line-height: 20px;
+            color: #fff;
+        }
+
+        .gyyeara {
+            color: #CC3A35;
+        }
+
+        .gyyearb {
+            color: #2D2D2D;
+        }
+
+        .gyNavCc .yuan {
+            right: 0;
+            left: -18px;
+        }
+
+        .fangou {
+            background: url('./img/guanyu/f3.png');
+        }
+
+        .lai {
+            background: url('./img/guanyu/f4.png');
+        }
+    </style>
+    <link rel="stylesheet" href="./js/zy.media.min.css">
+</head>
+
+<body class="mui-ios mui-ios-11 mui-ios-11-0" style="font-size: 12px;">
+    <div class="topshow">
+        <header id="header" class="mui-bar mui-bar-nav" style="background:#0f0f0f;box-shadow:initial;max-width:640px">
+            <div class="healeft healon"><img src="./img/18.png" alt=""></div>
+            <div class="healeft healtwo"></div>
+            <div class="healeft health">致力于高级开发人才培养</div>
+            <div class="heariht herone"><img src="./img/11.png" alt=""></div>
+        </header>
+        <div class="topshowb">
+            <ul>
+                <li> <a href="./index.html">
+                        <div class="topa"><img src="./img/s1.png" alt=""></div>
+                        <div class="topb">首页</div>
+                        <div class="topc"><img src="./img/12.png" alt=""></div>
+                    </a>
+                </li>
+                <li> <a href="./remen.html">
+                        <div class="topa"><img src="./img/s2.png" alt=""></div>
+                        <div class="topb">热门课程</div>
+                        <div class="topc"><img src="./img/12.png" alt=""></div>
+                    </a>
+                </li>
+                <li><a href="./jiuye.html">
+                        <div class="topa"><img src="./img/s3.png" alt=""></div>
+                        <div class="topb">就业战报</div>
+                        <div class="topc"><img src="./img/12.png" alt=""></div>
+                    </a>
+                </li>
+                <li> <a href="./daoshi.html">
+                        <div class="topa"><img src="./img/s4.png" alt=""></div>
+                        <div class="topb">实战导师</div>
+                        <div class="topc"><img src="./img/12.png" alt=""></div>
+                    </a>
+                </li>
+                <li><a href="./mianfei.html">
+                        <div class="topa"><img src="./img/s5.png" alt=""></div>
+                        <div class="topb">免费资源</div>
+                        <div class="topc"><img src="./img/12.png" alt=""></div>
+                    </a>
+                </li>
+                <li><a href="./jjtt.html">
+                        <div class="topa"><img src="./img/s6.png" alt=""></div>
+                        <div class="topb">聚焦头条</div>
+                        <div class="topc"><img src="./img/12.png" alt=""></div>
+                    </a>
+                </li>
+                <li> <a href="./textlist.html">
+                        <div class="topa"><img src="./img/s7.png" alt=""></div>
+                        <div class="topb">推荐阅读</div>
+                        <div class="topc"><img src="./img/12.png" alt=""></div>
+                    </a>
+                </li>
+                <li class="heractibe"><a href="./gywm.html">
+                        <div class="topa"><img src="./img/s8.png" alt=""></div>
+                        <div class="topb">关于我们</div>
+                        <div class="topc"><img src="./img/12.png" alt=""></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <header id="header" class="mui-bar mui-bar-nav" style="background:#0f0f0f;box-shadow:initial;max-width:640px">
+        <div class="healeft healon"><img src="./img/18.png" alt=""></div>
+        <div class="healeft healtwo"></div>
+        <div class="healeft health">致力于高级开发人才培养</div>
+        <div class="heariht hertwo"><img src="./img/1.png" alt=""></div>
+    </header>
+
+    <div class="navone">
+        <img src="./img/guanyu/1.png" alt="">
+    </div>
+
+    <div class="gyNav">
+        <div class="shoolatop">
+            关于我们
+        </div>
+        <div class="shooltopb">
+            好程序员——高品质IT培训
+        </div>
+        <div class="gyNava">
+            好程序员特训营是千锋教育旗下高端IT培训品牌，颠覆传统“批量输出式”培训，秉承精英小班、全程面授的高品质、高成本培养模式，致力于高薪、高能、高职的互联网高级开发人才培养，从导师选用到学员筛选，从课程双线并行到教学半军事化管理，将先进的教育方法、前沿的课程体系落地。好程序员已开设大数据+人工智能、HTML5大前端、JavaEE分布式开发、Python全栈+人工智能、Python云计算开发课程。从平凡到卓越，为梦想而拼搏，好程序员为品学兼优学员提供了高起点的培训平台，学员入职阿里、新浪、百度、搜狗等知名企业屡见不鲜，成就学员拿高薪进名企的梦想。
+        </div>
+    </div>
+    <div class="gyNavA">
+        <div class="sQa">
+            <div class="sQaer">
+                <img src="./img/guanyu/2.png" alt="">
+            </div>
+            <div class="playvideo">
+                <div class="zy_media">
+                    <video id="mp4" poster="" data-config='{"mediaTitle": "测试视频--视频"}'>
+                        <source src="http://www.w3cschool.cc/try/demo_source/mov_bbb.mp4" type="video/mp4">
+                        您的浏览器不支持HTML5视频
+                    </video>
+                </div>
+                <!-- <div id="modelView">&nbsp;</div> -->
+            </div>
+        </div>
+    </div>
+    <div class="gyNavB">
+        <div class="shoolatop">
+            为什么选择好程序员
+        </div>
+        <div class="shooltopb">
+            高端课程 高度赋能 高薪利器
+        </div>
+        <div class="gyNavBa">
+            <ul>
+                <li class="gya">
+                    <!-- <img src="./img/guanyu/3.png" alt=""> -->
+                    <div class="Baq">
+                        <img src="./img/guanyu/e1.png" alt="">
+                    </div>
+                    <div class="Baw">
+                        进班模式
+                    </div>
+                    <div class="Bae">
+                        精英小班 严格准入
+                    </div>
+                    <div class="Bar"></div>
+                    <div class="Bat">主打精英小班原则，设定严格的近班筛选条件，严格把控进班流程，保障教学成果。</div>
+                </li>
+                <li class="gyb">
+                    <!-- <img src="./img/guanyu/3.png" alt=""> -->
+                    <div class="Baq">
+                        <img src="./img/guanyu/e3.png" alt="">
+                    </div>
+                    <div class="Baw">
+                        培养模式
+                    </div>
+                    <div class="Bae">
+                        严进严出 高质量面授
+                    </div>
+                    <div class="Bar"></div>
+                    <div class="Bat">严格管理，坚持100%纯面授，打造高品质教学、高成本培养模式。</div>
+                </li>
+                <li class="gyc">
+                    <!-- <img src="./img/guanyu/3.png" alt=""> -->
+                    <div class="Baq">
+                        <img src="./img/guanyu/e5.png" alt="">
+                    </div>
+                    <div class="Baw">
+                        课程体系
+                    </div>
+                    <div class="Bae">
+                        三方对比 项目驱动
+                    </div>
+                    <div class="Bar"></div>
+                    <div class="Bat">课程体系与项目体系在难度上远超同行，行业内找不到第二家可以PK。采用企业前沿热门项目，专业与企业课程双线并行。</div>
+                </li>
+                <li class="gyd">
+                    <!-- <img src="./img/guanyu/3.png" alt=""> -->
+                    <div class="Baq">
+                        <img src="./img/guanyu/e7.png" alt="">
+                    </div>
+                    <div class="Baw">
+                        师资保障
+                    </div>
+                    <div class="Bae">
+                        专职导师+名企技术官
+                    </div>
+                    <div class="Bar"></div>
+                    <div class="Bat">全部总监/架构师级讲师授课，企业项目经理授课，选把自千人教研团队，测评均分99.04。</div>
+                </li>
+                <li class="gye">
+                    <!-- <img src="./img/guanyu/3.png" alt=""> -->
+                    <div class="Baq">
+                        <img src="./img/guanyu/e9.png" alt="">
+                    </div>
+                    <div class="Baw">
+                        就业保障
+                    </div>
+                    <div class="Bae">
+                        联合共建 定向直招
+                    </div>
+                    <div class="Bar"></div>
+                    <div class="Bat">1.8万家合作企业优先输送：BAT/TMD、500强互联网公司、独角兽企业等大厂。</div>
+                </li>
+                <li class="gyf">
+                    <!-- <img src="./img/guanyu/3.png" alt=""> -->
+                    <div class="Baq">
+                        <img src="./img/guanyu/e11.png" alt="">
+                    </div>
+                    <div class="Baw">
+                        服务保障
+                    </div>
+                    <div class="Bae">
+                        技术沙龙 学无止境
+                    </div>
+                    <div class="Bar"></div>
+                    <div class="Bat">一次学习，终身技能提高服务。定期举办校友会技术沙龙，新生代大牛切磋共赢，掌握企业生存法则，提升职场竞争力，激发无限潜能。</div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="navSan navSanTwo">
+        <div class="shoolatop">
+            产品服务
+        </div>
+        <div class="shooltopb">
+            5大主流学科赋能未来
+        </div>
+        <div class="SanSTwo">
+            <!-- <div class="htnk"><img src="./img/35.png" alt=""></div>
+			<div class="htnka">
+				HTML5大前端
+			</div>
+			<div class="htnkb">
+				剑指极峰 前端培训扛把子
+			</div>
+			<div class="htnkc">
+				<img src="./img/12.png" alt="">
+			</div> -->
+            <img src="./img/355.png" alt="">
+        </div>
+        <div class="SanF SanFzn">
+            <ul>
+                <li class="nkka">
+                    <div class="htnkk"><img src="./img/36.png" alt=""></div>
+                    <div class="htnkaa">
+                        大数据+人工智能
+                    </div>
+                    <div class="htnkbb">
+                        数据未来 收割绝尘高薪
+                    </div>
+                    <div class="htnkd">
+                        <img src="./img/12.png" alt="">
+                    </div>
+                    <!-- <img src="./img/88.png" alt=""> -->
+                </li>
+                <li class="SanFli nkkb">
+                    <div class="htnkk"><img src="./img/37.png" alt=""></div>
+                    <div class="htnkaa htyu">
+                        JavaEE分布式开发
+                    </div>
+                    <div class="htnkbb htyu">
+                        编程大咖 世界级应用范围
+                    </div>
+                    <div class="htnkd">
+                        <img src="./img/12.png" alt="">
+                    </div>
+                    <!-- <img src="./img/89.png" alt=""> -->
+                </li>
+                <li class="nkkc">
+                    <div class="htnkk"><img src="./img/38.png" alt=""></div>
+                    <div class="htnkaa htyuu">
+                        Python全站+人工智能
+                    </div>
+                    <div class="htnkbb htyuu">
+                        AI赋能 先导技术全栈融合
+                    </div>
+                    <div class="htnkd">
+                        <img src="./img/12.png" alt="">
+                    </div>
+                    <!-- <img src="./img/90.png" alt=""> -->
+                </li>
+                <li class="SanFli nkkd">
+                    <div class="htnkk"><img src="./img/39.png" alt=""></div>
+                    <div class="htnkaa htyuuu">
+                        Python云计算开发
+                    </div>
+                    <div class="htnkbb htyuuu">
+                        云上架构 红帽阿里认证
+                    </div>
+                    <div class="htnkd">
+                        <img src="./img/12.png" alt="">
+                    </div>
+                    <!-- <img src="./img/91.png" alt=""> -->
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="gyNavC">
+        <div class="tiked">
+            发展历程
+        </div>
+        <div class="gtuya drt">
+            好程序员成长足迹
+        </div>
+        <div class="navgtyi">
+            <div class="gyNavCa">
+                <ul>
+                    <li>
+                        <div class="yuan">
+                            <div class="dian"></div>
+                        </div>
+                        <div class="gyyear">2019年</div>
+                        <div class="gyyearnev">
+                            开设Python云计算开发高端班及大数据严选班型，企业级核心技术深度赋能。同年，与华为云达成战略合作，协同开拓智慧未来。入驻杭州、郑州，深化扩大IT高端人才输出的业务布局。
+                        </div>
+                    </li>
+                    <li class="fangou">
+                        <div class="yuan">
+                            <div class="dian"></div>
+                        </div>
+                        <div class="gyyear">2017年</div>
+                        <div class="gyyearnev">
+                            HTML5高端班首期毕业月均薪16950元，力刷行业高薪记录！同年，开设大数据+人工智能、JavaEE分布式开发高端班，加薪技术覆盖程度多于业内20%。
+                        </div>
+                    </li>
+                    <li>
+                        <div class="yuan">
+                            <div class="dian"></div>
+                        </div>
+                        <div class="gyyear">2015年</div>
+                        <div class="gyyearnev">
+                            好程序员合作企业突破18000家。为满足不同地域学员的求学需求，好程序员登陆深圳，为华南学子打开编程世界的大门。
+                        </div>
+                    </li>
+                    <li class="fangou">
+                        <div class="yuan">
+                            <div class="dian"></div>
+                        </div>
+                        <div class="gyyear">2013年</div>
+                        <div class="gyyearnev">
+                            千锋教育推出高端IT培训品牌“好程序员特训营”，培养符合新时期需求的互联产业高素质人才。
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="gyNavCb">
+                <div class="gyNavCba"></div>
+            </div>
+            <div class="gyNavCc">
+                <ul>
+                    <li>
+                        <div class="yuan">
+                            <div class="dian"></div>
+                        </div>
+                        <div class="gyyear gyyeara">2018年</div>
+                        <div class="gyyearnev gyyearb">
+                            大数据、HTML5、JavaEE课程大纲全线升级，JavaEE首期班毕业月均薪15083元，大数据首期班毕业月均薪19416元。同年，好程序员喜迁西三旗校区新址，全面开启教学模式战略升级序幕。
+                        </div>
+                    </li>
+                    <li class="lai">
+                        <div class="yuan">
+                            <div class="dian"></div>
+                        </div>
+                        <div class="gyyear gyyeara">2016年</div>
+                        <div class="gyyearnev gyyearb">
+                            开设HTML5大前端高端班，汇聚行业总监级架构大神，业内首创专业+企业课程体系。同年，举办第一届精英校友会，新生代技术大牛交互共赢，技术分享、行业前瞻，变同窗校友为职场人脉。
+                        </div>
+                    </li>
+                    <li>
+                        <div class="yuan">
+                            <div class="dian"></div>
+                        </div>
+                        <div class="gyyear gyyeara">2014年</div>
+                        <div class="gyyearnev gyyearb">
+                            开设iOS、Android高端班，同年，iOS首期班毕业月均薪11828元，Android首期班毕业月均薪11466元，创造业界神话。
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="shoola">
+        <div class="shoolatop">
+            发展历程
+        </div>
+        <div class="shooltopb">
+            怀匠心、践匠行、育匠人
+        </div>
+        <div class="shooltopC">
+            <ul>
+                <li class="fista">
+                    <a href="./shoolList.html">
+                        <div class="zih ziha ">
+                            <div class="zi zicolo">北京</div>
+                        </div>
+                        <div class="jian">
+                            <img src="./img/shoollist/shoold.png" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li> <a href="./shoolF.html">
+                        <div class="zih zihb">
+                            <div class="zi zicoloa">深圳</div>
+                        </div>
+                    </a>
+                </li>
+                <li><a href="./shoolD.html">
+                        <div class="zih zihc">
+                            <div class="zi zicoloa">杭州</div>
+                        </div>
+                    </a>
+                </li>
+                <li class="lastx"><a href="./shoolE.html">
+                        <div class="zih zihd">
+                            <div class="zi zicoloa">郑州</div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="sher">
+        <div class="shoolbb"> <a href="./shoolA.html">
+                <!-- <img src="./img/shoollist/shool5.png" alt="">
+                <a href="./shoolA.html" class="shoolbac"> <img src="./img/shoollist/shool6.png" alt=""></a> -->
+                <div class="shoowl">
+                    <img src="./img/shoollist/a1.png" alt="">
+                </div>
+                <div class="shoowl1">
+                    <img class="sab" src="./img/shoollist/a4.png" alt="">北京校区（总部）
+                </div>
+                <div class="shoowl2">
+                    北京市海淀区宝盛北里西区28号中关村智诚科创大厦
+                </div>
+            </a>
+        </div>
+        <div class="shoolbb"> <a href="./shoolB.html">
+                <div class="shoowl">
+                    <img src="./img/shoollist/a2.png" alt="">
+                </div>
+                <div class="shoowl1">
+                    <img class="sab" src="./img/shoollist/a4.png" alt="">北京西三旗校区
+                </div>
+                <div class="shoowl2">
+                    北京市昌平区三旗百汇物美大卖场2层
+                </div>
+            </a>
+        </div>
+        <div class="shoolbb"> <a href="./shoolC.html">
+                <div class="shoowl">
+                    <img src="./img/shoollist/a3.png" alt="">
+                </div>
+                <div class="shoowl1">
+                    <img class="sab" src="./img/shoollist/a4.png" alt="">北京沙河校区
+                </div>
+                <div class="shoowl2">
+                    北京市昌平区沙阳路18号北京科技职业技术学院广场服务楼
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="gyNavD">
+        <div class="gtuy"> 发展成就</div>
+        <div class="gtuya">从平凡到卓越 为梦想而拼搏</div>
+        <div class="gtuyb">
+            <ul>
+                <li>
+                    <div class="gtuyba">300位</div>
+                    <div class="gtuybb">名企技术官</div>
+                    <div class="gtuybc"></div>
+                    <div class="gtuybd">企业专家顾问，鼎力支持技术创新与课程研发</div>
+                </li>
+                <li>
+                    <div class="gtuyba">74次</div>
+                    <div class="gtuybb">课程迭代</div>
+                    <div class="gtuybc"></div>
+                    <div class="gtuybd">深度调研企业需求，每月小更新、季度大升级，各学科累计课程迭代74次</div>
+                </li>
+                <li>
+                    <div class="gtuyba">3000个</div>
+                    <div class="gtuybb">实战项目</div>
+                    <div class="gtuybc"></div>
+                    <div class="gtuybd">真实项目库3000个，代码集训20W+行，横跨30+主流行业，专业与企业课程双线并行</div>
+                </li>
+                <li>
+                    <div class="gtuyba">20万+</div>
+                    <div class="gtuybb">毕业年薪</div>
+                    <div class="gtuybc"></div>
+                    <div class="gtuybd">保守统计，46%以上学员年薪超过20万，奖金补贴等福利未计入年薪统计范畴</div>
+                </li>
+                <li>
+                    <div class="gtuyba">30%</div>
+                    <div class="gtuybb">入职大厂</div>
+                    <div class="gtuybc"></div>
+                    <div class="gtuybd">30%以上学员毕业直接入职BAT、TMD等国内TOP30的互联网巨头</div>
+                </li>
+                <li>
+                    <div class="gtuyba">73%</div>
+                    <div class="gtuybb">胜任高级岗位</div>
+                    <div class="gtuybc"></div>
+                    <div class="gtuybd">致力于IT高端人才培养，学员毕业任职高级开发工程师、项目leader管理岗、架构师等岗位</div>
+                </li>
+                <li>
+                    <div class="gtuyba">18000家</div>
+                    <div class="gtuybb">合作企业</div>
+                    <div class="gtuybc"></div>
+                    <div class="gtuybd">合作企业18000余家，在人才培养与合作项目研发领域硕果累累</div>
+                </li>
+                <li>
+                    <div class="gtuyba">80%</div>
+                    <div class="gtuybb">口碑推荐率</div>
+                    <div class="gtuybc"></div>
+                    <div class="gtuybd">好程序员口碑推荐率高达80%，没有虚假噱头和广告，每班状态都是提前爆满，一座难求</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="di">
+        <div class="dia">
+            <div class="diaa">
+                <div class="diaaimg">
+                    <img src="./img/18.png" alt="">
+                </div>
+                <div class="diaaa">
+                    <img src="./img/10.png" alt="">官方客服QQ:
+                </div>
+                <div class="diaab">
+                    997964424
+                </div>
+                <div class="diaac">
+                    北京 <span>|</span>深圳<span>|</span>杭州<span>|</span>郑州
+                </div>
+            </div>
+            <div class="diab">
+                <div class="diabimg">
+                    <img src="./img/44.png" alt="">
+                </div>
+                <div class="diabtext">
+                    微信订阅号
+                </div>
+            </div>
+        </div>
+        <div class="dib">
+            Copyright 2007-2019 北京千峰互联科技有限公司 .All Right京ICD备12003911号-5 京公安网11010802011455号
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+            <li>
+                <div class="footerimg"><img src="./img/45.png" alt=""></div>
+                <div class="footertext">在线咨询</div>
+            </li>
+            <li>
+                <div class="footerimg"><img src="./img/46.png" alt=""></div>
+                <div class="footertext">导师热线</div>
+            </li>
+            <li>
+                <div class="footerimg"><img src="./img/47.png" alt=""></div>
+                <div class="footertext">留学答疑</div>
+            </li>
+        </ul>
+    </div>
+    <script src="./js/jquery-2.0.0.min.js"></script>
+    <script src="./mui/js/mui.js"></script>
+    <script src="./js/zy.media.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script>
+        $(function () {
+            var video = document.getElementById("mp4");
+            // document.body.style.overflow = 'hidden';
+            zymedia('video', {
+                autoplay: true
+            });
+            var screenheight = window.screen.height / 2;
+            $("#modelView").width('100%');
+            $("#modelView").height('100%');
+            var videoheight = $(".zy_media").height() / 2;
+            $('.sQaer').click(function () {
+                video.play();
+                $(this).hide();
+                $('.zy_playpause_btn').addClass('zy_pause').removeClass('zy_play')
+            })
+            $('body').on('click', '.zy_pause', function () {
+                console.log('lll')
+                $('.sQaer').show();
+            })
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title></title>
+    <link rel="stylesheet" href="./mui/css/mui.css">
+    <link rel="stylesheet" href="./css/commen.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./dist/css/swiper.min.css">
+    <link rel="stylesheet" href="./css/jiuye.css">
+
+    <style>
+        .processingbar {
+            text-align: center;
+            /* margin: 14px 28px 0 0; */
+            position: relative;
+            width: 110px;
+            margin-top: -9px;
+            margin-left: -18px;
+        }
+
+        .processingbar font {
+            display: block;
+            width: 118px;
+            height: 122px;
+            line-height: 110px;
+            font-size: 19px;
+            /* font-weight: bold; */
+            text-align: center;
+            position: absolute;
+            left: 0;
+            top: -3px;
+            margin: 0px 0 0 0px;
+        }
+
+        .jyNavAbian {
+            position: relative;
+            height: 280px;
+        }
+
+        .bing {
+            position: absolute;
+            top: 0px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            /* background-color: red; */
+            padding: 35px 20px 10px 22px;
+        }
+
+        .binga {
+            width: 100%;
+            height: 120px;
+            border-bottom: 1px solid red;
+        }
+
+        .baa {
+            width: 100%;
+            height: 50px;
+        }
+
+        .baimg {
+            display: block;
+            float: left;
+            width: 20px;
+            height: 20px;
+            /* background-color: red; */
+            margin-top: 20px;
+        }
+
+        .year {
+            float: left;
+            width: 40px;
+            height: 20px;
+            line-height: 19px;
+            font-size: 19px;
+            font-weight: 600;
+            color: #0f0f0f;
+            margin-top: 20px;
+            margin-left: 10px;
+            border-bottom: 4px solid #F0ACA9;
+        }
+
+        .baleft {
+            float: left;
+            width: 65%;
+            height: 118px;
+            overflow: hidden;
+        }
+
+        .baright {
+            float: left;
+            width: 35%;
+            height: 100px;
+            /* background-color: red; */
+        }
+
+        .yeatr {
+            width: 100%;
+            height: 30px;
+            line-height: 18px;
+            font-size: 14px;
+            color: #686868;
+        }
+
+        .teshu {
+            font-size: 18px;
+            font-weight: 600;
+            color: #2D2D2D;
+        }
+
+        .bingb li {
+            float: left;
+            width: 31%;
+            height: 100px;
+            margin: 0 1%;
+            margin-top: 10px;
+            /* background-color: red; */
+        }
+
+        .bingb li .processingbar {
+            width: 50px;
+            height: 50px;
+        }
+
+        .bingb li .processingbar font {
+            display: block;
+            width: 100px;
+            height: 122px;
+            line-height: 110px;
+            font-size: 14px;
+            /* font-weight: bold; */
+            text-align: center;
+            position: absolute;
+            left: 0;
+            top: -3px;
+            margin: 0px 0 0 0px;
+            color: #DD4641;
+        }
+
+        .pdtec {
+            width: 100%;
+            height: auto;
+            text-align: center;
+            font-size: 12px;
+            color: #8E8E8E;
+            line-height: 14px;
+            margin-top: 37px;
+        }
+
+        .biulA {
+            display: none;
+        }
+
+        .biulA li {
+            width: 20%;
+            height: 100px;
+            margin: 0 2%;
+            margin-top: 5px;
+        }
+
+        .biulA .pdtec {
+            margin-top: 5px;
+        }
+
+        .SanFFkju {
+            margin-top: 38px;
+
+        }
+
+        .SanFFkju .shiq {
+            width: 85%;
+        }
+
+        .jyNavG {
+            width: 100%;
+            height: 520px;
+            background: url('./img/jiuye/c1.png');
+            background-size: 100% 100%;
+        }
+
+        .jyuA {
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            font-size: 20px;
+            font-weight: 600;
+            color: #fff;
+            text-align: center;
+            margin-top: 20px;
+            letter-spacing: 2px;
+        }
+
+        .jyuB {
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            font-size: 16px;
+            color: red;
+            text-align: center;
+        }
+
+        .jyuC {
+            width: 100%;
+            height: auto;
+            padding: 0 10px;
+            position: relative;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+
+        .jyuC li {
+            float: left;
+            width: 49%;
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .jyuC li img {
+            width: 100%;
+            height: auto;
+        }
+
+        .lionr {
+            margin-right: 2%;
+        }
+
+        .jyui {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            margin-left: -30px;
+            background-color: #fff;
+            border-radius: 50% 50%;
+            z-index: 9;
+        }
+
+        .jyNavGa {
+            bottom: 12px;
+        }
+
+        .litou {
+            position: absolute;
+            top: 24%;
+            left: 0;
+            width: 100%;
+            font-size: 16px;
+            color: #DD4641;
+            text-align: center;
+            line-height: 20px;
+        }
+
+        .litouA {
+            position: absolute;
+            top: 46%;
+            left: 0;
+            width: 100%;
+            font-size: 14px;
+            color: #666666;
+            text-align: center;
+            padding: 0 15px;
+            line-height: 20px;
+        }
+    </style>
+</head>
+
+<body class="mui-ios mui-ios-11 mui-ios-11-0" style="font-size: 12px;">
+    <div class="topshow">
+        <header id="header" class="mui-bar mui-bar-nav" style="background:#0f0f0f;box-shadow:initial;max-width:640px">
+            <div class="healeft healon"><img src="./img/18.png" alt=""></div>
+            <div class="healeft healtwo"></div>
+            <div class="healeft health">致力于高级开发人才培养</div>
+            <div class="heariht herone"><img src="./img/11.png" alt=""></div>
+        </header>
+        <div class="topshowb">
+            <ul>
+                <li> <a href="./index.html">
+                        <div class="topa"><img src="./img/s1.png" alt=""></div>
+                        <div class="topb">首页</div>
+                        <div class="topc"><img src="./img/12.png" alt=""></div>
+                    </a>
+                </li>
+                <li> <a href="./remen.html">
+                        <div class="topa"><img src="./img/s2.png" alt=""></div>
+                        <div class="topb">热门课程</div>
+                        <div class="topc"><img src="./img/12.png" alt=""></div>
+                    </a>
+                </li>
+                <li class="heractibe"><a href="./jiuye.html">
+                        <div class="topa"><img src="./img/s3.png" alt=""></div>
+                        <div class="topb">就业战报</div>
+                        <div class="topc"><img src="./img/12.png" alt=""></div>
+                    </a>
+                </li>
+                <li> <a href="./daoshi.html">
+                        <div class="topa"><img src="./img/s4.png" alt=""></div>
+                        <div class="topb">实战导师</div>
+                        <div class="topc"><img src="./img/12.png" alt=""></div>
+                    </a>
+                </li>
+                <li><a href="./mianfei.html">
+                        <div class="topa"><img src="./img/s5.png" alt=""></div>
+                        <div class="topb">免费资源</div>
+                        <div class="topc"><img src="./img/12.png" alt=""></div>
+                    </a>
+                </li>
+                <li><a href="./jjtt.html">
+                        <div class="topa"><img src="./img/s6.png" alt=""></div>
+                        <div class="topb">聚焦头条</div>
+                        <div class="topc"><img src="./img/12.png" alt=""></div>
+                    </a>
+                </li>
+                <li> <a href="./textlist.html">
+                        <div class="topa"><img src="./img/s7.png" alt=""></div>
+                        <div class="topb">推荐阅读</div>
+                        <div class="topc"><img src="./img/12.png" alt=""></div>
+                    </a>
+                </li>
+                <li><a href="./gywm.html">
+                        <div class="topa"><img src="./img/s8.png" alt=""></div>
+                        <div class="topb">关于我们</div>
+                        <div class="topc"><img src="./img/12.png" alt=""></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <header id="header" class="mui-bar mui-bar-nav" style="background:#0f0f0f;box-shadow:initial;max-width:640px">
+        <div class="healeft healon"><img src="./img/18.png" alt=""></div>
+        <div class="healeft healtwo"></div>
+        <div class="healeft health">致力于高级开发人才培养</div>
+        <div class="heariht hertwo"><img src="./img/1.png" alt=""></div>
+    </header>
+
+    <div class="navone">
+        <img src="./img/jiuye/1.png" alt="">
+    </div>
+    <div class="jyNav">
+        <div class="jyNava">
+            好程序员高薪登顶
+        </div>
+        <div class="jyNavb">
+            学员成绩、奖金等福利未纳入统计，<br />保守月薪就业轰动业内!
+        </div>
+        <div class="jyNavc">
+            <img src="./img/jiuye/2.png" alt="">
+            <div class="jyNavcA cAa">
+                <div class="cAdiv">
+                    <div class="cAsp">
+                        <span class="cAspan">29000</span> 元
+                    </div>
+                    <div class="cAspa">
+                        最高月薪
+                    </div>
+                </div>
+                <div class="cAdiv">
+                    <div class="cAsp">
+                        <span class="cAspan">18275</span> 元
+                    </div>
+                    <div class="cAspa">
+                        平均月薪
+                    </div>
+                </div>
+            </div>
+            <div class="jyNavcA cAb">
+                <div class="jyNavcB">
+                    <!-- <img src="./img/jiuye/29.png" alt=""> -->
+                    <div id="processingbar" class="processingbar">
+                        <font>71%</font>
+                    </div>
+                </div>
+                <div class="jywu">
+                    15k以上
+                </div>
+            </div>
+        </div>
+        <div class="jyNavc">
+            <img src="./img/jiuye/3.png" alt="">
+            <div class="jyNavcA cAa">
+                <div class="cAdiv">
+                    <div class="cAsp">
+                        <span class="cAspan">38000</span> 元
+                    </div>
+                    <div class="cAspa">
+                        最高月薪
+                    </div>
+                </div>
+                <div class="cAdiv">
+                    <div class="cAsp">
+                        <span class="cAspan">15237</span> 元
+                    </div>
+                    <div class="cAspa">
+                        平均月薪
+                    </div>
+                </div>
+            </div>
+            <div class="jyNavcA cAb">
+                <div class="jyNavcB">
+                    <!-- <img src="./img/jiuye/30.png" alt=""> -->
+                    <div id="processingbar1" class="processingbar">
+                        <font>71%</font>
+                    </div>
+                </div>
+                <div class="jywu">
+                    15k以上
+                </div>
+            </div>
+        </div>
+        <div class="jyNavc">
+            <img src="./img/jiuye/4.png" alt="">
+            <div class="jyNavcA cAa">
+                <div class="cAdiv">
+                    <div class="cAsp">
+                        <span class="cAspan">20000</span> 元
+                    </div>
+                    <div class="cAspa">
+                        最高月薪
+                    </div>
+                </div>
+                <div class="cAdiv">
+                    <div class="cAsp">
+                        <span class="cAspan">14109</span> 元
+                    </div>
+                    <div class="cAspa">
+                        平均月薪
+                    </div>
+                </div>
+            </div>
+            <div class="jyNavcA cAb">
+                <div class="jyNavcB">
+                    <!-- <img src="./img/jiuye/31.png" alt=""> -->
+                    <div id="processingbar2" class="processingbar">
+                        <font>71%</font>
+                    </div>
+                </div>
+                <div class="jywu">
+                    15k以上
+                </div>
+            </div>
+        </div>
+        <div class="jyNavc">
+            <img src="./img/jiuye/5.png" alt="">
+            <div class="jyNavcA cAa">
+                <div class="cAdiv">
+                    <div class="cAsp">
+                        <span class="cAspan">29000</span> 元
+                    </div>
+                    <div class="cAspa">
+                        最高月薪
+                    </div>
+                </div>
+                <div class="cAdiv">
+                    <div class="cAsp">
+                        <span class="cAspan">18275</span> 元
+                    </div>
+                    <div class="cAspa">
+                        平均月薪
+                    </div>
+                </div>
+            </div>
+            <div class="jyNavcA cAb">
+                <div class="jyNavcB">
+                    <!-- <img src="./img/jiuye/32.png" alt=""> -->
+                    <div id="processingbar3" class="processingbar">
+                        <font>71%</font>
+                    </div>
+                </div>
+                <div class="jywu">
+                    15k以上
+                </div>
+            </div>
+        </div>
+        <div class="jyNavc">
+            <img src="./img/jiuye/7.png" alt="">
+            <div class="wu">
+                <img src="./img/jiuye/6.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="jyNavA">
+        <div class="jyNava jyNavaA">
+            好程序员就业数据大起底
+        </div>
+        <div class="jyNavb jyNavaA">
+            技术能力与就业层次远超同龄人
+        </div>
+        <div class="jyNavAone">
+            <ul>
+                <li class="jyred" data="8">年龄</li>
+                <li class="two" data="9">学历</li>
+                <li data="10">状态</li>
+                <li data="11">薪酬</li>
+                <li class="two" data="12">企业</li>
+                <li data="13">岗位</li>
+            </ul>
+        </div>
+        <div class="jyNavAbian">
+            <img class="88" src="./img/jiuye/88.png" alt="">
+            <div class="bing">
+                <div class="binga">
+                    <div class="baleft">
+                        <div class="baa">
+                            <img class="baimg" src="./img/jiuye/a1.png" alt="">
+                            <div class="year">年龄</div>
+                        </div>
+                        <div class="yeatr">
+                            低于25岁学员占比 <span class="teshu">66%</span>
+                        </div>
+                    </div>
+                    <div class="baright">
+                        <div id="main" style="width: 100%;height:100%;"></div>
+                    </div>
+                </div>
+                <div class="bingb">
+                    <ul class="biul">
+                        <li>
+                            <div id="processingbar4" class="processingbar">
+                                <font>11.4%</font>
+                            </div>
+                            <div class="pdtec pdteca">
+                                20岁以下<br />
+                                学员占比
+                            </div>
+                        </li>
+                        <li>
+                            <div id="processingbar5" class="processingbar">
+                                <font>54.7%</font>
+                            </div>
+                            <div class="pdtec pdtecb">
+                                20-25岁<br />
+                                学员占比
+                            </div>
+                        </li>
+                        <li>
+                            <div id="processingbar6" class="processingbar">
+                                <font>33.9%</font>
+                            </div>
+                            <div class="pdtec pdtecc">
+                                25岁以上<br />
+                                学员占比
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="biulA">
+                        <li>
+                            <div class="biulAa">
+                                <img src="./img/jiuye/b1.png" alt="">
+                            </div>
+                            <div class="pdtec">
+                                20万以上
+                            </div>
+                        </li>
+                        <li>
+                            <div class="biulAa">
+                                <img src="./img/jiuye/b2.png" alt="">
+                            </div>
+                            <div class="pdtec">
+                                15-20万
+                            </div>
+                        </li>
+                        <li>
+                            <div class="biulAa">
+                                <img src="./img/jiuye/b3.png" alt="">
+                            </div>
+                            <div class="pdtec">
+                                10-15万
+                            </div>
+                        </li>
+                        <li>
+                            <div class="biulAa">
+                                <img src="./img/jiuye/b4.png" alt="">
+                            </div>
+                            <div class="pdtec">
+                                其他
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="shixue SanFFkju">
+            <div class="shiq" style="width: 70%;">查看好程序员白皮书 <img src="./img/7.png" alt=""></div>
+        </div>
+    </div>
+
+    <div class="jyNavB">
+        <div class="jyNava jyNavaA">
+            真数据、真实力 整班就业稳准狠
+        </div>
+        <div class="jyNavb jyNavaA">
+            人均斩获2.5个一线企业offer
+        </div>
+        <div class="jyNavBone">
+            <ul>
+                <li class="jyred"> <img class="jyNavBimgA" src="./img/jiuye/14.png" alt="">HTML5大前端</li>
+                <li><img class="jyNavBimgB" src="./img/jiuye/15.png" alt=""> 大数据+人工智能</li>
+                <li><img class="jyNavBimgC" src="./img/jiuye/16.png" alt="">JavaEE分布式开发</li>
+                <li class="jylia"><img class="jyNavBimgD" src="./img/jiuye/17.png" alt="">Python全栈+人工智能</li>
+            </ul>
+        </div>
+        <div class="navCjy">
+            <tbody>
+                <table>
+                    <tr class="onetr">
+                        <td width="20%">
+                            <div>姓名</div>
+                        </td>
+                        <td width="40%">
+                            <div>入职企业</div>
+                        </td>
+                        <td width="20%" class="onrred">
+                            <div>薪资</div>
+                        </td>
+                        <td width="20%">福利</td>
+                    </tr>
+                    <tr>
+                        <td>王**</td>
+                        <td>百*</td>
+                        <td class="onrred">21000</td>
+                        <td>六险一金</td>
+                    </tr>
+                    <tr>
+                        <td>王**</td>
+                        <td>爱*艺</td>
+                        <td class="onrred">1800</td>
+                        <td>六险一金</td>
+                    </tr>
+                    <tr>
+                        <td>王**</td>
+                        <td>百*</td>
+                        <td class="onrred">21000</td>
+                        <td>六险一金</td>
+                    </tr>
+                    <tr>
+                        <td>王**</td>
+                        <td>爱*艺</td>
+                        <td class="onrred">1800</td>
+                        <td>六险一金</td>
+                    </tr>
+                    <tr>
+                        <td>王**</td>
+                        <td>百*</td>
+                        <td class="onrred">21000</td>
+                        <td>六险一金</td>
+                    </tr>
+                </table>
+            </tbody>
+        </div>
+        <div class="shixue SanFFkju">
+            <div class="shiq" style="width: 70%;">咨询获取全学科就业数据 <img src="./img/7.png" alt=""></div>
+        </div>
+    </div>
+
+    <!-- <div class="jyNavC">
+
+    </div> -->
+    <div class="jyNavD">
+        <div class="jyNavDa">
+            <div class="jyNavCa">
+                <div class="jyNava jyNavaA">
+                    有图有真相
+                </div>
+                <div class="jyNavb jyNavaA">
+                    一大波重磅offer来袭
+                </div>
+                <div class="jyNavDb">
+                    <!-- Swiper -->
+                    <div class="swiper-container scburr">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./img/jiuye/18.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./img/jiuye/18.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./img/jiuye/18.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./img/jiuye/18.png" alt=""></div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <!-- <div class="swiper-pagination"></div> -->
+                        <!-- Add Arrows -->
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="jyNavDc">
+                        大数据学科就业
+                    </div>
+                    <div class="jyNavDd">
+                        大数据3期学员 毕业拿下20K15薪offer
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shixue SanFFkju SanFFkjugh">
+            <div class="shiq" style="width: 70%;">咨询获取更多课程介绍 <img src="./img/7.png" alt=""></div>
+        </div>
+    </div>
+
+    <div class="jyNavE">
+        <div class="jyNava jyNavaA">
+            每10名好程序员就有8名来自口碑介绍
+        </div>
+        <div class="jyNavb jyNavaA">
+            因为收益 所以享受
+        </div>
+        <div class="jyNavEa">
+            <div class="swiper-container baner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="jyNavEaa">
+                            <div class="jyNavEab">
+                                <img src="./img/jiuye/23.png" alt="">
+                            </div>
+                            <div class="jyNavEac">
+                                <div class="jytext">shang**</div>
+                                <div class="jytexta"></div>
+                                <div class="jytextc">因为收益 所以享受因为收益 所以享受因为收益 所以享受因为收益 所以享受因为收益 所以享受因为收益 所以享受因为收益 所以享受因为收益
+                                    所以享受因为收益
+                                    所以享受因为收益 所以享受</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="jyNavEaa">
+                            <div class="jyNavEab">
+                                <img src="./img/jiuye/23.png" alt="">
+                            </div>
+                            <div class="jyNavEac">
+                                <div class="jytext">shang**</div>
+                                <div class="jytexta"></div>
+                                <div class="jytextc">因为收益 所以享受因为收益 所以享受因为收益 所以享受因为收益 所以享受因为收益 所以享受因为收益 所以享受因为收益 所以享受因为收益
+                                    所以享受因为收益
+                                    所以享受因为收益 所以享受</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="jyNavEaa">
+                            <div class="jyNavEab">
+                                <img src="./img/jiuye/23.png" alt="">
+                            </div>
+                            <div class="jyNavEac">
+                                <div class="jytext">shang**</div>
+                                <div class="jytexta"></div>
+                                <div class="jytextc">因为收益 所以享受因为收益 所以享受因为收益 所以享受因为收益 所以享受因为收益 所以享受因为收益 所以享受因为收益 所以享受因为收益
+                                    所以享受因为收益
+                                    所以享受因为收益 所以享受</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="jyNavEaa">
+                            <div class="jyNavEab">
+                                <img src="./img/jiuye/23.png" alt="">
+                            </div>
+                            <div class="jyNavEac">
+                                <div class="jytext">shang**</div>
+                                <div class="jytexta"></div>
+                                <div class="jytextc">因为收益 所以享受因为收益 所以享受因为收益 所以享受因为收益 所以享受因为收益 所以享受因为收益 所以享受因为收益 所以享受因为收益
+                                    所以享受因为收益
+                                    所以享受因为收益 所以享受</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
+            </div>
+        </div>
+    </div>
+    <div class="shixue">
+        <div class="shiq">咨询获取更多课程介绍 <img src="./img/7.png" alt=""></div>
+    </div>
+
+    <div class="jyNavF">
+        <img src="./img/jiuye/24.png" alt="">
+        <div class="shixue  jyNavFa">
+            <div class="shiq">咨询获取更多优势详情 <img src="./img/7.png" alt=""></div>
+        </div>
+    </div>
+
+    <div class="jyNavG">
+        <div class="jyuA">
+            人才培养目标大不同
+        </div>
+        <div class="jyuB">
+            青铜or王者你选哪一个？
+        </div>
+        <div class="jyuC">
+            <div class="jyui">
+                <img src="./img/jiuye/25.png" alt="">
+            </div>
+            <ul>
+                <li class="lionr">
+                    <img src="./img/jiuye/c2.png" alt="">
+                    <div class="litou">
+                        初级开发人员<br />
+                        月薪8K+
+                    </div>
+                    <div class="litouA">
+                        能力一般，可完成基础编程工作，大部分工作通过复制、粘贴、修改完成。解决新问题、学习新知识的能力较差，程序员大军中的底层
+                    </div>
+                </li>
+                <li class="litnr">
+                    <img src="./img/jiuye/c3.png" alt="">
+                    <div class="litou">
+                      高薪开发人员<br />
+                        月薪15K+
+                    </div>
+                    <div class="litouA">
+                            整体技能全面，熟悉业务，能力达到项目负责人级别，负责项目核心复杂功能的实现方案设计、编码实现，属于团队中的核心。
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="kong"></div>
+        <div class="shixue  jyNavGa">
+            <div class="shiq">咨询获取进阶高级程序员宝典 <img src="./img/7.png" alt=""></div>
+        </div>
+    </div>
+
+
+
+
+    <div class="di">
+        <div class="dia">
+            <div class="diaa">
+                <div class="diaaimg">
+                    <img src="./img/18.png" alt="">
+                </div>
+                <div class="diaaa">
+                    <img src="./img/10.png" alt="">官方客服QQ:
+                </div>
+                <div class="diaab">
+                    997964424
+                </div>
+                <div class="diaac">
+                    北京 <span>|</span>深圳<span>|</span>杭州<span>|</span>郑州
+                </div>
+            </div>
+            <div class="diab">
+                <div class="diabimg">
+                    <img src="./img/44.png" alt="">
+                </div>
+                <div class="diabtext">
+                    微信订阅号
+                </div>
+            </div>
+        </div>
+        <div class="dib">
+            Copyright 2007-2019 北京千峰互联科技有限公司 .All Right京ICD备12003911号-5 京公安网11010802011455号
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+            <li>
+                <div class="footerimg"><img src="./img/45.png" alt=""></div>
+                <div class="footertext">在线咨询</div>
+            </li>
+            <li>
+                <div class="footerimg"><img src="./img/46.png" alt=""></div>
+                <div class="footertext">导师热线</div>
+            </li>
+            <li>
+                <div class="footerimg"><img src="./img/47.png" alt=""></div>
+                <div class="footertext">留学答疑</div>
+            </li>
+        </ul>
+    </div>
+    <script src="./js/jquery-2.0.0.min.js"></script>
+    <script src="./mui/js/mui.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./dist/js/swiper.min.js"></script>
+    <script src="./dist/raphael.js"></script>
+    <script src="./dist/cycle.js"></script>
+    <script src="./dist/ww.js"></script>
+    <script src="./dist/echarts/echarts.min.js"></script>
+    <script>
+
+        $(function () {
+            var myChart = echarts.init(document.getElementById('main'))
+            var a = $('#processingbar');
+            animateEle(a, "#F87630");
+            $(window).scroll(function () {
+                animateEle(a, "#F87630")
+            });
+            var b = $('#processingbar1');
+            animateEle(b, "#2581F4");
+            $(window).scroll(function () {
+                animateEle(b, "#2581F4");
+            });
+            var c = $('#processingbar2');
+            animateEle(c, "#F1403A");
+            $(window).scroll(function () {
+                animateEle(c, "#F1403A");
+            });
+            var d = $('#processingbar3');
+            animateEle(d, "#489BA3");
+            $(window).scroll(function () {
+                animateEle(d, "#489BA3");
+            });
+            dd()
+            function dd() {
+                var e = $('#processingbar4');
+                animateElecc(e, "#DD4641");
+                $(window).scroll(function () {
+                    animateElecc(e, "#DD4641");
+                });
+                var f = $('#processingbar5');
+                animateElecc(f, "#DD4641");
+                $(window).scroll(function () {
+                    animateElecc(f, "#DD4641");
+                });
+                var g = $('#processingbar6');
+                animateElecc(g, "#DD4641");
+                $(window).scroll(function () {
+                    animateElecc(g, "#DD4641");
+                });
+            }
+
+
+
+            $('.jyNavAone li').click(function () {
+                $(this).addClass('jyred').siblings().removeClass('jyred')
+                var sum = $(this).attr('data');
+                if (sum == '11') {
+                    $('.biul').hide();
+                    $('.biulA').show();
+                    $('.baimg').attr('src', './img/jiuye/a4.png');
+                    $('.year').text('薪酬');
+                    $('.yeatr').html('年薪超过20万<br/>学员占比超 <span class="teshu">46%</span>')
+                    bing(46);
+                } else {
+                    $('.biul').show();
+                    $('.biulA').hide();
+                    $('.jyNavAbian .88').attr('src', './img/jiuye/' + 88 + '.png');
+                    if (sum == '8') {
+                        $('.baimg').attr('src', './img/jiuye/a1.png');
+                        $('.year').text('年龄');
+                        $('.yeatr').html('低于25岁学员占比 <span class="teshu">66%</span>')
+                        $('#processingbar4 font').html('11.48%');
+                        $('.biul .pdteca').html(' 20岁以下<br />学员占比')
+                        $('#processingbar5 font').html('54.7%');
+                        $('.biul .pdtecb').html(' 20-25岁<br />学员占比')
+                        $('#processingbar6 font').html('33.9%');
+                        $('.biul .pdtecc').html('25岁以上<br />学员占比');
+                        dd();
+                        bing(66);
+                    } else if (sum == '9') {
+                        $('.baimg').attr('src', './img/jiuye/a2.png');
+                        $('.year').text('学历');
+                        $('.yeatr').html('本科及985、211学员以上学历学员占比超&nbsp<span class="teshu">85%</span>')
+                        $('#processingbar4 font').html('12.8%');
+                        $('.pdteca').html('专科学员占比')
+                        $('#processingbar5 font').html('84.1%');
+                        $('.pdtecb').html('本科学员占比')
+                        $('#processingbar6 font').html('1%');
+                        $('.pdtecc').html('硕士+学员占比');
+                        dd();
+                        bing(85);
+                    } else if (sum == '10') {
+                        $('.baimg').attr('src', './img/jiuye/a3.png');
+                        $('.year').text('状态');
+                        $('.yeatr').html('具备实际工作经验学员占比超&nbsp<span class="teshu">46%</span>')
+                        $('#processingbar4 font').html('25.1%');
+                        $('.pdteca').html('在读学员占比')
+                        $('#processingbar5 font').html('28.4');
+                        $('.pdtecb').html('应届学员占比')
+                        $('#processingbar6 font').html('46.5%');
+                        $('.pdtecc').html('非应届学员占比');
+                        dd();
+                        bing(46);
+                    } else if (sum == '12') {
+                        $('.baimg').attr('src', './img/jiuye/a5.png');
+                        $('.year').text('企业');
+                        $('.yeatr').html('毕业直接入职BAT、TMD等国内TOP30的互联网巨头学员占比超&nbsp<span class="teshu">30%</span>')
+                        $('#processingbar4 font').html('30%');
+                        $('.pdteca').html('BAT/TMD<br/>学员占比')
+                        $('#processingbar5 font').html('53%');
+                        $('.pdtecb').html('一线互联网名企<br/>学员占比')
+                        $('#processingbar6 font').html('1%');
+                        $('.pdtecc').html('其他企业<br/>学员占比');
+                        dd();
+                        bing(30);
+                    } else if (sum == '13') {
+                        $('.baimg').attr('src', './img/jiuye/a6.png');
+                        $('.year').text('岗位');
+                        $('.yeatr').html('毕业胜任管理岗位&nbsp<span class="teshu">25%</span>')
+                        $('#processingbar4 font').html('73%');
+                        $('.pdteca').html('高级开发工程师学员占比')
+                        $('#processingbar5 font').html('25%');
+                        $('.pdtecb').html('项目Leader管理岗学员占比')
+                        $('#processingbar6 font').html('1%');
+                        $('.pdtecc').html('架构师学员占比');
+                        dd();
+                        bing(25);
+                    }
+                }
+
+            })
+            var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev',
+                slidesPerView: 1,
+                paginationClickable: true,
+                spaceBetween: 30,
+                loop: true
+            });
+            var swiperw = new Swiper('.baner', {
+                pagination: '.swiper-pagination',
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev',
+                slidesPerView: 1,
+                paginationClickable: true,
+                spaceBetween: 30,
+                loop: true
+            });
+
+            bing(66)
+            function bing(sum) {
+                var ds = 100 - sum * 1
+                option = {
+                    series: [
+                        {
+                            name: '访问来源',
+                            type: 'pie',
+                            radius: '80%',
+                            center: ['50%', '50%'],
+                            label: {
+                                normal: {
+                                    show: false,
+                                    position: 'center'
+                                },
+
+                            },
+                            data: [
+                                { value: sum, name: '无' },
+                                { value: ds, name: '学员' },
+                            ],
+                            itemStyle: {
+                                emphasis: {
+                                    shadowBlur: 10,
+                                    shadowOffsetX: 0,
+                                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                                },
+                                normal: {
+                                    color: function (params) {
+                                        //自定义颜色
+                                        var colorList = [
+                                            '#D34641', '#F4F4F4',
+                                        ];
+                                        return colorList[params.dataIndex]
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                };
+                myChart.setOption(option);
+            }
+
+
+
+
+
+
+
+
+
+
+
+        })
+    </script>
+</body>
+
+</html>

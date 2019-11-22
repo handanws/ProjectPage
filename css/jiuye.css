@@ -1,0 +1,501 @@
+html,
+body {
+    font-size: 16px !important;
+    background-color: #f4f4f4;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+}
+
+.jyNav {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.jyNava {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0;
+    letter-spacing: 2px;
+}
+
+.jyNavb {
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0;
+    color: #dd4146;
+}
+
+.jyNavc {
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.jyNavcA {
+    position: absolute;
+    top: 33%;
+    width: 54%;
+    /* height: 50px; */
+    /* background-color: red; */
+}
+
+.cAa {
+    left: 0;
+    padding-left: 10px;
+}
+
+.cAb {
+    right: 0;
+    padding-right: 10px;
+}
+
+.cAdiv {
+    width: 90px;
+    height: 50px;
+    line-height: 10px;
+    font-size: 12px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.cAdiv div {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+}
+
+.cAspan {
+    font-size: 16px;
+}
+
+.cAsp {
+    line-height: 36px !important;
+}
+
+.cAspa {
+    color: #ddd;
+}
+
+.jyNavcB {
+    width: 42%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.jywu {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    color: #dedede;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.wu {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    width: 30%;
+    margin-left: -15%;
+}
+
+.jyNavA {
+    width: 100%;
+    /* height: 100%; */
+    padding: 20px 10px 30px 10px;
+    background-color: #fff;
+}
+
+.jyNavaA {
+    margin: 0px;
+}
+
+.jyNavAone {
+    width: 100%;
+    height: 90px;
+}
+
+.jyNavAone li {
+    width: 32%;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #7e7e7e;
+    color: #686868;
+    float: left;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.jyNavAone .two {
+    margin: 0 2%;
+}
+
+.jyred {
+    background-color: #dd4146 !important;
+    color: #fff !important;
+    border: 0px !important;
+}
+
+.jyNavAbian {
+    width: 100%;
+    height: auto;
+}
+
+.shiq {
+    width: 73%;
+    font-size: 16px;
+}
+
+.jyNavBone {
+    width: 100%;
+    height: 90px;
+}
+
+.jyNavBone li {
+    width: 45%;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #7e7e7e;
+    color: #686868;
+    float: left;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 3.5%;
+    padding-left: 31px;
+    position: relative;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.jyNavBone li img {
+    width: 22px;
+    height: auto;
+    position: absolute;
+    top: 8px;
+    left: 15px;
+}
+
+.jyNavBimgA {
+    left: 20px !important;
+    top: 10px !important;
+}
+
+.jyNavBimgB {
+    left: 20px !important;
+}
+
+.jyNavBimgC {
+    top: 6px !important;
+}
+
+.jyNavBimgD {
+    left: 5px !important;
+}
+
+.jylia {
+    padding-left: 20px;
+}
+
+.navCjy {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.navCjy tbody,
+table {
+    width: 100%;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.navCjy tbody td {
+    text-align: center;
+    height: 30px;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.navCjy tbody tr {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.onetr {
+    height: 40px;
+    background-color: #818181 !important;
+    padding: 10px 0;
+    border-bottom: 0px solid #e1e1e1;
+    color: #fff;
+}
+
+.onetr td div {
+    width: 100%;
+    height: 20px !important;
+    border-right: 1px solid #CCCCCC;
+}
+
+.onrred {
+    background-color: #D6615D;
+    color: #fff;
+}
+
+.jyNavB .shiq {
+    text-align: left;
+    padding-left: 10%;
+}
+
+.jyNavB .shiq img {
+    right: 17px;
+}
+
+.jyNavC {
+    width: 100%;
+    padding: 0 10px;
+
+}
+
+
+
+.jyNavD {
+    width: 100%;
+    height: 530px;
+    background: url('../img/jiuye/33.png');
+    background-size: 100% 100%;
+    padding: 0 10px;
+    position: relative;
+    margin-top: 110px;
+}
+
+.jyNavDa {
+    width: 100%;
+    height: 515px;
+    padding: 0 10px;
+    position: absolute;
+    top: -80px;
+    left: 0;
+}
+
+.jyNavCa {
+    background: url('../img/jiuye/21.png');
+    background-size: 100% 100%;
+    height: 100%;
+}
+
+.jyNavDb {
+    width: 100%;
+    height: 300px;
+}
+
+.swiper-container {
+    overflow: visible;
+}
+
+.swiper-container,
+.baner {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+    background: url('../img/jiuye/19.png');
+    background-size: 100% 100%;
+    right: -27px;
+    width: 30px;
+    height: 30px;
+}
+
+.swiper-button-next {
+    
+    right: 4px !important;
+}
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+    background: url('../img/jiuye/20.png');
+    background-size: 100% 100%;
+    width: 30px;
+    height: 30px;
+    
+}
+.swiper-button-prev{
+    left: 4px !important;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    text-align: right;
+}
+
+.jyNavDc {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #CC3A35;
+    color: #FEFBFB;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.jyNavDd {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.SanFFkjugh {
+    position: absolute;
+    bottom: 18px;
+    left: 0;
+}
+
+.jyNavE {
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.jyNavEa {
+    width: 100%;
+    height: 200px;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.jyNavEaa {
+    width: 100%;
+    height: 100%;
+    background: url('../img/jiuye/22.png');
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.jyNavEab {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 17%;
+    left: 20px;
+}
+
+.jyNavEac {
+    width: 190px;
+    height: 185px;
+    position: absolute;
+    top: 0%;
+    right: 0px;
+    color: #fff;
+    padding: 0 5px;
+    font-size: 14px;
+}
+
+.jytext {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.jytexta {
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.jytextc {
+    width: 100%;
+    height: 125px;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+    padding-top: 5px;
+}
+
+.jyNavF {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.jyNavFa {
+    position: absolute;
+    bottom: 20px;
+}
+
+.jyNavG {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.jyNavGa {
+    position: absolute;
+    bottom: 37px;
+}
+
+.jyNavGa .shiq {
+    text-align: left;
+    padding-left: 18px;
+}
+
+.jyNavGa img {
+    right: 15px;
+}
+
+.scburr {
+    width: 90% !important;
+    overflow: hidden;
+}

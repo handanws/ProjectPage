@@ -1,0 +1,637 @@
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.navO {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+
+.navT,
+.navO {
+    width: 40%;
+    height: 35px;
+    line-height: 35px;
+    background-color: #d5308e;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 24px;
+    font-size: 14px;
+}
+
+.navT {
+    float: left;
+    background-color: #5570f5;
+}
+
+.navO {
+    float: left;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+.navTwo {
+    width: 100%;
+    height: 100px;
+    background-color: pink;
+    margin-bottom: 20px;
+}
+
+.navTwo ul {
+    width: 100%;
+    height: 100%;
+}
+
+.navTwo li {
+    background-color: #dd4641;
+    float: left;
+    width: 25%;
+    height: 100%;
+    position: relative;
+}
+
+.TwoO {
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.TwoO img {
+    width: 100%;
+    height: 100%;
+}
+
+.TwoT {
+    width: 100%;
+    height: 18px;
+    line-height: 18px;
+    font-size: 16px;
+    text-align: center
+}
+
+.TwoX {
+    position: absolute;
+    top: 23px;
+    right: 0px;
+    width: 0.5px;
+    border-right: 1px solid #ed9f9c;
+    height: 55px;
+    /* background-colorgb(15, 5, 4)f9c; */
+}
+
+.navSan {
+    width: 100%;
+    /* height: 540px; */
+}
+
+.Sanone {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #c3c3c3;
+    /* margin-top: 20px; */
+}
+
+.Santwo {
+    color: #dd4641;
+    margin: 5px 0;
+}
+
+.SanS {
+    color: #2D2D2D;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.SanF {
+    width: 100%;
+    height: 340px;
+    /* background-color: pink; */
+    padding: 0 10px;
+}
+.wlsan{
+    height: 275px;
+}
+.SanF ul {
+    width: 100%;
+    height: 100%;
+}
+
+.SanF li {
+    float: left;
+    width: 48%;
+    height: 130px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.SanF .SanFli {
+    float: right;
+
+}
+
+.SanFone {
+    width: 65px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 2px
+}
+
+.SanFone img {
+    width: 100%;
+    height: 100%;
+}
+
+.SanFtwo {
+    width: 100%;
+    height: 40px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 15px;
+    color: #2d2d2d;
+}
+
+.SanFF {
+    width: 100%;
+    height: 500px;
+    padding: 0 10px;
+}
+.wldfr{
+    height: 400px;
+}
+.SanFF ul {
+    width: 100%;
+    height: 100%;
+}
+
+.SanFF li {
+    float: left;
+    width: 100%;
+    height: 65px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-right: 10px;
+}
+
+.SanFFOne {
+    float: left;
+    width: 46px;
+    height: 26px;
+    line-height: 26px;
+    margin-top: 20px;
+    background-color: #dd4641;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 0 15px 15px 0;
+    margin-right: 5px;
+    color:#fff;
+}
+
+.SanFFTwo {
+    float: left;
+    height: 100%;
+    /* margin-top: 27px; */
+    line-height: 65px;
+    font-size: 16px;
+    color: #2d2d2d;
+}
+
+.SanFFSan {
+    float: right;
+    width: 90px;
+    height: 100%;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.SanFTime {
+    width: 100%;
+    height: 30px;
+    line-height: 31px;
+    font-size: 15px;
+    color: #666;
+    text-align: right;
+}
+
+.SanFBm {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    color: red;
+    text-align: right;
+}
+
+.SanFBm img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+.navSanTwo {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.SanSTwo {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    padding: 0 10px;
+}
+.nkka{
+    background:url('../img/366.png');
+    background-size: 100% 100%;
+}
+.nkkb{
+    background:url('../img/377.png');
+    background-size: 100% 100%;
+}.nkkc{
+    background:url('../img/388.png');
+    background-size: 100% 100%;
+}.nkkd{
+    background:url('../img/399.png');
+    background-size: 100% 100%;
+}
+.SanSTwo img {
+    width: 100%;
+    height: 100%;
+}
+
+.SanFzn li {
+    /* background-color: pink; */
+    width: 49%;
+    height: auto;
+    /* padding-left: 5px; */
+}
+
+.sanmah {
+    margin-top: 30px;
+}
+.SanFFrt{
+    height: 460px;
+}
+.FFleft {
+    float: left;
+    width: 4%;
+    /* height: 400px; */
+    /* background-color: red; */
+    padding-top: 32px;
+}
+
+.dian {
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    background-color: #000;
+}
+
+.line {
+    width: 2px;
+    height: 59px;
+    background-color: #b5b5b5;
+    margin-left: 6px;
+}
+
+.FFrihtr {
+    float: right;
+    width: 95%;
+    /* height: 400px; */
+    /* background-color: pink; */
+}
+
+.FFrihtr ul {
+    width: 100%;
+    height: 100%;
+}
+
+.FFrihtr li {
+    width: 100%;
+    height: 64px;
+    border-radius: 0px;
+    background: url('../img/48.png');
+    background-size: 100% 100%;
+}
+
+.rihtrone {
+    float: left;
+    width: 40px;
+    height: 40px;
+    /* background-color: red; */
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.rihtrtwo {
+    float: left;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 5%;
+    padding-top: 5px;
+}
+
+.htqi {
+    font-size: 18px;
+    color: #000;
+}
+
+.httext {
+    font-size: 16px;
+    line-height: 23px;
+    color: #999;
+}
+
+.rihtrS {
+    float: right;
+    height: 100%;
+    line-height: 66px;
+    font-size: 22px;
+    color: #dd4641;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.rihtry {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.PRACTICAL {
+    padding-top: 20px;
+}
+
+.Sanzhuanz {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.dao,
+.shi {
+    float: left;
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    line-height: 40px;
+    background-color: #dd4641;
+    font-size: 18px;
+    color: #fff;
+}
+
+.dao {
+    margin: 0 2.5%;
+}
+
+.shi {
+    background-color: #686868;
+}
+
+.PRACTICAL .SanFF {
+    margin-top: 20px;
+    height: 662px;
+}
+
+.PRACTICAL .SanFF li {
+    position: relative;
+    background-color: #eee;
+    height: 120px;
+    margin-top: 38px;
+    
+}
+
+.phont {
+    width: 105px;
+    height: 108px;
+    background-color: pink;
+    position: absolute;
+    top: -27px;
+    left: 15px;
+}
+
+.phont img {
+    width: 100%;
+    height: 100%;
+}
+
+.phname {
+    width: 80px;
+    height: 24px;
+    margin-left: 140px;
+    font-size: 18px;
+    margin-top: 16px;
+    color: #2d2d2d;
+}
+
+.phtext {
+    margin-left: 140px;
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 22px;
+    color: #2d2d2d;
+}
+
+.SanFFkju {
+    margin-top: 20px;
+}
+
+.FOCUS .SanFF {
+    background-color: #fff;
+}
+
+.FOCUS .SanFF li {
+    height: 120px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+    padding: 10px 0;
+}
+
+.FOCUS .Sanone {
+    margin-top: 20px;
+}
+
+.FOCUS .Santwo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.FOCUSimg {
+    float: left;
+    width: 35%;
+    height: 100%;
+    background-color: red;
+}
+
+.FOCUSimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.FOCUStext {
+    float: left;
+    margin-left: 5px;
+    width: 62%;
+    height: 100%;
+}
+
+.shang {
+    width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 5px;
+}
+
+.xia {
+    width: 100%;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 5px;
+    text-align: right;
+    margin-top: 24px;
+    color: #999;
+}
+
+.PECOMMENDED .SanFF {
+    margin-top: 20px;
+    height: 250px;
+}
+
+.PECOMMENDED li {
+    width: 32%;
+    height: 230px;
+    background-color: #fff;
+}
+
+.PECOMMENDEDli {
+    margin: 0 2%;
+}
+
+.PECOMMENDEDimg {
+    width: 100%;
+    height: 80px;
+    background-color: red;
+}
+
+PECOMMENDEDimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.PECOMMENDEDtext {
+    height: 120px;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0 5px;
+    padding-top: 5px;
+}
+
+.PECOMMENDEDtime {
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+.navoa {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.navob {
+    font-size: 30px;
+}
+
+.navob span {
+    font-weight: 600;
+}
+
+.navoc {
+    font-size: 18px;
+}
+
+.htnk {
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+.htnka {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #f87630;
+    font-weight: 600;
+}
+
+.htnkb {
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #f87630;
+}
+
+.htnkk {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    /* background-color: #fff; */
+}
+
+.htnkc {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+
+.htnkaa {
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #2578f4;
+    font-weight: 600;
+}
+
+.htnkbb {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #2578f4;
+}
+
+.htnkd {
+    width: 30px;
+    height: 30px;
+}
+
+.htyu {
+    color: #f1403a;
+}
+
+.htyuu {
+    color: #4873a3;
+}
+
+.htyuuu {
+    color: #52af2e;
+}
