@@ -54,7 +54,9 @@ ul {
 }
 
 .kcNavaactivea {
-    border-bottom: 3px solid #df3421;
+    border-bottom: 1px solid #df3421;
+    color: #df3421;
+    font-weight: 600;
 }
 
 .kcNavA {
@@ -303,6 +305,8 @@ gyNavB {
     left: 0%;
     padding: 0 10px;
     color: #666;
+    font-size: 12px;
+    line-height: 16px;
 }
 
 .aasd {
@@ -416,4 +420,64 @@ gyNavB {
 
 .shixuege {
     height: 20px;
+}
+.kcNavAbbb{
+    display: none;
+    width: 100%;
+    height: 215px;
+    /* background-color: red; */
+    padding: 0 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.bhuwyst{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(139,139,139);
+}
+.bhxian{
+    width: 100%;
+    height: 150px;
+    border-top: 2px solid rgb(2090,209,209);
+}
+.bhxian li{
+   float: left;
+   width: 38%;
+   height: 150px;
+   background: url('../img/u1.png');
+   background-size: 100% 100%;
+   margin-left: 7%;
+   margin-right: 2%;
+   margin-top: 10px;
+}
+.lkiuy{
+    margin-left: 2%;
+    margin-right: 7%;
+}
+.liimhju{
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.imtext{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+    color: rgb(45,45,45);
+}
+.shunimg{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(223,55,49);
+    font-weight: 600;
 }

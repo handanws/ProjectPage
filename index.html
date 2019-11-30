@@ -17,6 +17,10 @@
 			height: auto;
 			margin-bottom: 25px;
 		}
+
+		.lopu {
+			background-color: #dd4641;
+		}
 	</style>
 </head>
 
@@ -204,7 +208,7 @@
 			</ul>
 		</div>
 	</div>
-	<div class="navSan">
+	<div class="navSan" style="padding-top: 40px; padding-bottom: 35px;">
 		<div class="Sanone">
 			RECENT&nbsp;START
 		</div>
@@ -262,7 +266,7 @@
 			<div class="shiq">申请试学 <img src="./img/7.png" alt=""></div>
 		</div>
 	</div>
-	<div class="navSan navSanTwo">
+	<div class="navSan navSanTwo" style="padding-top: 20px; padding-bottom: 35px;">
 		<div class="Sanone">
 			POPULAR&nbsp;COURSES
 		</div>
@@ -285,7 +289,7 @@
 			</div> -->
 			<img src="./img/355.png" alt="">
 		</div>
-		<div class="SanF SanFzn">
+		<div class="SanF SanFzn" style="overflow: hidden; padding-bottom: 20px;">
 			<ul>
 				<li class="nkka">
 					<!-- <div class="htnkk"><img src="./img/36.png" alt=""></div>
@@ -348,7 +352,7 @@
 		</div>
 	</div>
 	<div class="navSan">
-		<div class="Sanone sanmah">
+		<div class="Sanone sanmah" style="margin-top: 18px;">
 			EMPLOYMENT&nbsp;WAGE
 		</div>
 		<div class="Sanone Santwo">
@@ -357,7 +361,7 @@
 		<div class="Sanone SanS">
 			超30%学员征服大厂直通名企
 		</div>
-		<div class="SanFF SanFFrt">
+		<div class="SanFF SanFFrt" style="height: 100%;overflow: hidden;">
 			<div class="FFleft">
 				<div class="dian"></div>
 				<div class="line"></div>
@@ -448,7 +452,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="shixue aa">
+		<div class="shixue aa" style="margin-top: 15px;margin-bottom: 45px;">
 			<a href="./jiuye.html">
 				<div class="shiq">查看更多<img src="./img/7.png" alt=""></div>
 			</a>
@@ -465,11 +469,11 @@
 			全部总监架构师级大咖亲授
 		</div>
 		<div class="Sanzhuanz">
-			<a href="./daoshi.html"><div class="dao">专职导师</div></a>
-			<a href="./mqjsg.html"><div class="shi">名企技术官</div></a>
+			<div class="dianjil dao lopu">专职导师</div>
+			<div class="dianjil shi">名企技术官</div>
 		</div>
 		<div class="SanFF">
-			<ul>
+			<ul class="SanFFdaqyul">
 				<li>
 					<div class="phont"><img src="./img/19.jpg" alt=""></div>
 					<div class="phname">
@@ -512,21 +516,20 @@
 				</li>
 			</ul>
 		</div>
-		<div style="width: 100%;height: 20px;"></div>
-		<div class="shixue SanFFkju">
+		<div class="shixue SanFFkju" style="margin-top: 30px;margin-bottom: 25px;">
 			<a href="./daoshi.html">
 				<div class="shiq">查看更多 <img src="./img/7.png" alt=""></div>
 			</a>
 		</div>
 	</div>
-	<div class="navSan FOCUS">
+	<div class="navSan FOCUS" style="background-color: #F4F4F4;padding-bottom: 30px;">
 		<div class="Sanone">
 			FOCUS&nbsp;HEADLINES
 		</div>
 		<div class="Sanone Santwo">
 			聚焦头条
 		</div>
-		<div class="SanFF">
+		<div class="SanFF" style="height: 100%;overflow: hidden;">
 			<ul>
 				<li>
 					<div class="FOCUSimg"><img src="./img/23.jpg" alt=""></div>
@@ -558,14 +561,13 @@
 				</li>
 			</ul>
 		</div>
-		<div style="width: 100%;height: 20px;"></div>
 		<div class="shixue SanFFkju">
 			<a href="./jjtt.html">
 				<div class="shiq">查看更多 <img src="./img/7.png" alt=""></div>
 			</a>
 		</div>
 	</div>
-	<div class="navSan PECOMMENDED">
+	<div class="navSan PECOMMENDED" style="background-color: #EDEDED;padding-top: 20px;padding-bottom: 25px;">
 		<div class="Sanone">
 			PECOMMENDED
 		</div>
@@ -597,8 +599,7 @@
 				</li>
 			</ul>
 		</div>
-		<div style="width: 100%;height: 20px;"></div>
-		<div class="shixue SanFFkju">
+		<div class="shixue SanFFkju" style="margin-top: 10px;">
 			<a href="./textlist.html">
 				<div class="shiq">查看更多 <img src="./img/7.png" alt=""></div>
 			</a>
@@ -657,7 +658,7 @@
 			</div>
 		</div>
 		<div class="dib">
-			Copyright 2007-2019 北京千锋互联科技有限公司 .All Right京ICP备12003911号-5 京公安网11010802011455号
+			Copyright 2007-2019 北京千锋互联科技有限公司.All Right京ICP备12003911号-5 京公安网11010802011455号
 		</div>
 	</div>
 	<div class="footer">
@@ -679,6 +680,101 @@
 	<script src="./js/jquery-2.0.0.min.js"></script>
 	<script src="./mui/js/mui.js"></script>
 	<script src="./js/index.js"></script>
+	<script>
+		$(function () {
+			$('.Sanzhuanz .dianjil').click(function () {
+				$('.SanFFdaqyul').html('')
+				var text = $(this).text();
+				$(this).addClass('lopu');
+				$(this).siblings().removeClass('lopu');
+				var html = null;
+				if (text == '专职导师') {
+					html = '<li>' +
+						'<div class="phont"><img src="./img/19.jpg" alt=""></div>' +
+						'<div class="phname">' +
+						'罗老师' +
+						'</div>' +
+						'<div class="phtext">' +
+						'大数据&JavaEE教学总监<br />' +
+						'原微软中国项目负责人' +
+						'</div>' +
+						'</li>' +
+						'<li>' +
+						'<div class="phont"><img src="./img/20.jpg" alt=""></div>' +
+						'<div class="phname">' +
+						'王老师' +
+						'</div>' +
+						'<div class="phtext">' +
+						'HTML5教学总监<br />' +
+						'原中科院计算机所专家' +
+						'</div>' +
+						'</li>' +
+						'<li>' +
+						'<div class="phont"><img src="./img/21.jpg" alt=""></div>' +
+						'<div class="phname">' +
+						'杨老师' +
+						'</div>' +
+						'<div class="phtext">' +
+						'计算机教学总监<br />' +
+						'红帽认证架构师' +
+						'</div>' +
+						'</li>' +
+						'<li>' +
+						'<div class="phont"><img src="./img/22.jpg" alt=""></div>' +
+						'<div class="phname">' +
+						'古老师' +
+						'</div>' +
+						'<div class="phtext">' +
+						'Python教学总监<br />' +
+						'资深全栈工程师' +
+						'</div>' +
+						'</li>'
+				} else {
+					html = '<li>' +
+						'<div class="phont"><img src="./img/19.jpg" alt=""></div>' +
+						'<div class="phname">' +
+						'罗老师' +
+						'</div>' +
+						'<div class="phtext">' +
+						'大数据&JavaEE教学总监<br />' +
+						'原微软中国项目负责人' +
+						'</div>' +
+						'</li>' +
+						'<li>' +
+						'<div class="phont"><img src="./img/20.jpg" alt=""></div>' +
+						'<div class="phname">' +
+						'王老师' +
+						'</div>' +
+						'<div class="phtext">' +
+						'HTML5教学总监<br />' +
+						'原中科院计算机所专家' +
+						'</div>' +
+						'</li>' +
+						'<li>' +
+						'<div class="phont"><img src="./img/21.jpg" alt=""></div>' +
+						'<div class="phname">' +
+						'杨老师' +
+						'</div>' +
+						'<div class="phtext">' +
+						'计算机教学总监<br />' +
+						'红帽认证架构师' +
+						'</div>' +
+						'</li>' +
+						'<li>' +
+						'<div class="phont"><img src="./img/22.jpg" alt=""></div>' +
+						'<div class="phname">' +
+						'古老师' +
+						'</div>' +
+						'<div class="phtext">' +
+						'Python教学总监<br />' +
+						'资深全栈工程师' +
+						'</div>' +
+						'</li>'
+				}
+				$('.SanFFdaqyul').html(html);
+			})
+		})
+	</script>
 </body>
 
 </html>
